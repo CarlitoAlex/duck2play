@@ -23,7 +23,7 @@ public class Duck2playApplicationTests {
 	public void test2(){
 		int a = 1;
 		int b = a + 5;
-		Assert.assertEquals(6,b);
+		Assert.assertEquals(2,b);
 	}
 
 }
