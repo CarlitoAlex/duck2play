@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" th:href="@{/static/css/main.css}">
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <img th:src="@{/images/duck-512.png}" id="logo">
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="page-header">
+        <h1>Канал Игровых новостей</h1>
+    </div>
+    <p>Всем кря товарищи</p>
+    <p>На этой страницу я буду максимально делиться всеми событиями произошедшиви в игровой индустрии. Каждый день будет публиковаться та или иная новость которая будет привносить много всего интересного</p>
+</div>
+
+<div class="row">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6" id="contentTitle">
+        <img th:src="'https://cdn.igromania.ru/mnt/news/6/6/f/9/1/8/79254/885dc2b8de3cc4c9_848x477.jpg'" id="newsImage">
+        <h1>Суперцветение, олени-альбиносы и экспедиции — подробности о Far Cry: New Dawn</h1>
+        <p>Вслед за анонсом Far Cry: New Dawn компания Ubisoft опубликовала на своём канале видео с дополнительными
+            сведениями об игре. Авторы поведали о мире Ne...  <a th:href="@{/articlepage}">Подробнее --></a></p>
+    </div>
+    <div class="col-sm-3"></div>
+</div>
+
+<div class="row">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6" id="contentTitle1">
+        <img th:src="'https://stopga.me/images/games/logos/18814/outer_worlds.jpg'" id="newsImage1">
+        <h1>Суперцветение, олени-альбиносы и экспедиции — подробности о Far Cry: New Dawn</h1>
+        <p>Вслед за анонсом Far Cry: New Dawn компания Ubisoft опубликовала на своём канале видео с дополнительными
+            сведениями об игре. Авторы поведали о мире Ne...  <a th:href="@{/articlepage}">Подробнее --></a></p>
+    </div>
+    <div class="col-sm-3"></div>
+</div>
+
+<div class="row">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6" id="contentTitle2">
+        <img th:src="'https://stopga.me/images/games/logos/15483/psychonauts_2.jpg'" id="newsImage2">
+        <h1>Суперцветение, олени-альбиносы и экспедиции — подробности о Far Cry: New Dawn</h1>
+        <p>Вслед за анонсом Far Cry: New Dawn компания Ubisoft опубликовала на своём канале видео с дополнительными
+            сведениями об игре. Авторы поведали о мире Ne...  <a th:href="@{/articlepage}">Подробнее --></a></p>
+    </div>
+    <div class="col-sm-3"></div>
+</div>
+
+<div class="row">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6" id="contentTitle3">
+        <img th:src="'https://stopga.me/images/games/logos/18812/mortal_kombat_11.jpg'" id="newsImage3">
+        <h1>Суперцветение, олени-альбиносы и экспедиции — подробности о Far Cry: New Dawn</h1>
+        <p>Вслед за анонсом Far Cry: New Dawn компания Ubisoft опубликовала на своём канале видео с дополнительными
+            сведениями об игре. Авторы поведали о мире Ne...  <a th:href="@{/getPerfectPage}">Подробнее --></a></p>
+    </div>
+    <div class="col-sm-3"></div>
+</div>
+
+</body>
+</html>
