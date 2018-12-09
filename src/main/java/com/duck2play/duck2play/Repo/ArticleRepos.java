@@ -7,4 +7,5 @@ import java.util.List;
 
 public interface ArticleRepos extends JpaRepository<Article, Long> {
     List<Article> findArticleByTitle(String title);
+    Article findArticleById(int id);
 }

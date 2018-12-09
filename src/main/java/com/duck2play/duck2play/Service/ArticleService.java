@@ -16,4 +16,10 @@ public class ArticleService {
     public List<Article> getAllArticle(){
         return articleRepos.findAll();
     }
+
+    
+    public Article getArticleById(int id){
+        return articleRepos.findArticleById(id);
+    }
+
 }
