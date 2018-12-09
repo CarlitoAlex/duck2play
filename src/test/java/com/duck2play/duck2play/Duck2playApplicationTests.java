@@ -21,9 +21,9 @@ public class Duck2playApplicationTests {
 
 	@Test
 	public void test2(){
-		int a = 5;
+		int a = 1;
 		int b = a + 5;
-		Assert.assertEquals(10,b);
+		Assert.assertEquals(6,b);
 	}
 
 }
