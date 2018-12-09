@@ -14,16 +14,16 @@ public class ArticleService {
     @Autowired
     private ArticleRepos articleRepos;
 
-    public List<Article> getAllArticle(){
+    public List<Article> getAllArticle() {
         return articleRepos.findAll();
     }
 
 
-    public Article getArticleById(int id){
+    public Article getArticleById(int id) {
         return articleRepos.findArticleById(id);
     }
 
-    public List<Article> getByDateArticle(Timestamp date){
+    public List<Article> getByDateArticle(Timestamp date) {
         return articleRepos.findArticleByDatePublish(date);
     }
 
