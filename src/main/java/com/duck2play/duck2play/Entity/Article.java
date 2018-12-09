@@ -3,6 +3,7 @@ package com.duck2play.duck2play.Entity;
 
 import org.glassfish.grizzly.http.util.TimeStamp;
 
+import java.sql.Timestamp;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
