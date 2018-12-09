@@ -15,7 +15,7 @@ public class Duck2playApplicationTests {
 
 	@Test
 	public void test1(){
-		int a = 0;
+		int a = 123;
 	}
 
 }
