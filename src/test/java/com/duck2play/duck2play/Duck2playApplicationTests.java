@@ -26,4 +26,15 @@ public class Duck2playApplicationTests {
 		Assert.assertEquals(2,b);
 	}
 
+	@Test
+	public void testSeven(){
+		String seven = "seven";
+		if (seven.length()==5){
+			System.out.println("Seven");
+		}else {
+			System.out.println("So Sad");
+		}
+	}
+
+
 }
