@@ -13,4 +13,9 @@ public class Duck2playApplicationTests {
 	public void contextLoads() {
 	}
 
+	@Test
+	public void test1(){
+		int a = 0;
+	}
+
 }
